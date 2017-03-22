@@ -33,7 +33,7 @@
     <script>
         var webSocket;
         $().ready(function () {
-            webSocket = new WebSocket("wss:http://scarsock.azurewebsites.net/");
+            webSocket = new WebSocket("wss:"+"http://" + window.location.host);
             webSocket.onopen = function () {
                 $("#status").text("connected");
             };
