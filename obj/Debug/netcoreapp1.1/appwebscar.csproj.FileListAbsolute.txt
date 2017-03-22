@@ -1,0 +1,8 @@
+/Users/torrefuertesas/appwebscar/bin/Debug/netcoreapp1.1/appwebscar.deps.json
+/Users/torrefuertesas/appwebscar/bin/Debug/netcoreapp1.1/appwebscar.runtimeconfig.json
+/Users/torrefuertesas/appwebscar/bin/Debug/netcoreapp1.1/appwebscar.runtimeconfig.dev.json
+/Users/torrefuertesas/appwebscar/obj/Debug/netcoreapp1.1/appwebscar.AssemblyInfo.cs
+/Users/torrefuertesas/appwebscar/bin/Debug/netcoreapp1.1/appwebscar.dll
+/Users/torrefuertesas/appwebscar/bin/Debug/netcoreapp1.1/appwebscar.pdb
+/Users/torrefuertesas/appwebscar/obj/Debug/netcoreapp1.1/appwebscar.dll
+/Users/torrefuertesas/appwebscar/obj/Debug/netcoreapp1.1/appwebscar.pdb
