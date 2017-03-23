@@ -3598,6 +3598,15 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "valueinjecter/3.1.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.6/Omu.ValueInjecter.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.6/Omu.ValueInjecter.dll": {}
+        }
       }
     }
   },
@@ -9698,6 +9707,27 @@
         "system.xml.xpath.xdocument.4.0.1.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "valueinjecter/3.1.1.3": {
+      "sha512": "4xcg4w9/Ri/gDLxyJRwDu+flBmaN2keQTgcoPGpCgby+ooL8xFbAmr/jWBZD4IglmuaZZ3fWmxAR7laM3ptVkw==",
+      "type": "package",
+      "path": "valueinjecter/3.1.1.3",
+      "files": [
+        "lib/net40/Omu.ValueInjecter.XML",
+        "lib/net40/Omu.ValueInjecter.dll",
+        "lib/net40/Omu.ValueInjecter.pdb",
+        "lib/netstandard1.6/Omu.ValueInjecter.deps.json",
+        "lib/netstandard1.6/Omu.ValueInjecter.dll",
+        "lib/netstandard1.6/Omu.ValueInjecter.pdb",
+        "lib/netstandard1.6/Omu.ValueInjecter.xml",
+        "lib/uap/Omu.ValueInjecter.XML",
+        "lib/uap/Omu.ValueInjecter.dll",
+        "lib/uap/Omu.ValueInjecter.pdb",
+        "lib/uap/Omu.ValueInjecter.pri",
+        "lib/uap/Properties/ValueInjecter_Universal.rd.xml",
+        "valueinjecter.3.1.1.3.nupkg.sha512",
+        "valueinjecter.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -9708,7 +9738,8 @@
       "Microsoft.AspNetCore.WebSockets.Server >= 0.1.0",
       "Microsoft.Extensions.Logging.Debug >= 1.1.1",
       "Microsoft.NETCore.App >= 1.1.1",
-      "Microsoft.VisualStudio.Web.BrowserLink >= 1.1.0"
+      "Microsoft.VisualStudio.Web.BrowserLink >= 1.1.0",
+      "ValueInjecter >= 3.1.1.3"
     ]
   },
   "packageFolders": {
@@ -9764,6 +9795,10 @@
           "Microsoft.AspNetCore.WebSockets.Server": {
             "target": "Package",
             "version": "0.1.0"
+          },
+          "ValueInjecter": {
+            "target": "Package",
+            "version": "3.1.1.3"
           }
         }
       }
